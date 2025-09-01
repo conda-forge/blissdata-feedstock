@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@beenje](https://github.com/beenje/)
+* [@proto3](https://github.com/proto3/)
 
