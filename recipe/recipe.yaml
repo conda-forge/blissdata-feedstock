@@ -63,4 +63,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - proto3
     - beenje
