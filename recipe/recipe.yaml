@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: blissdata
-  version: 2.0.1
+  version: "2.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/blissdata-${{ version }}.tar.gz
-  sha256: e9ba87a0ba4fada904727cd1e96e273193040961914a39cb13afcf5d7bb0951c
+  sha256: 3bfa2b19dadcf4a367739fbd4a7f98640995987b2c4ed22eb060c9fa4a275281
 
 build:
   number: 0
@@ -32,6 +32,7 @@ requirements:
     - h5py >=2.9
     - msgpack-python
     - numpy >=1.20
+    - numpydantic <1.6.10
     - pydantic >=2.3.0
     - redis-py >=4.6.0
     - redis-om >=0.3.1,<1.0
@@ -56,7 +57,7 @@ tests:
 about:
   summary: Bliss data streaming client
   license: LGPL-3.0-or-later
-  license_file: lgpl-3.0.txt
+  license_file: LICENSE
   homepage: https://gitlab.esrf.fr/bliss/blissdata
   repository: https://gitlab.esrf.fr/bliss/blissdata
   documentation: https://bliss.gitlab-pages.esrf.fr/blissdata/
