@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: blissdata
-  version: "2.4.5"
+  version: "2.4.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/blissdata-${{ version }}.tar.gz
-  sha256: 0a86fcbeec0d4105de4e14ce5c94238f7c00e8d5edde38ad3999db59d7143285
+  sha256: 8dc0d57a8c468887d6539c6f046a3a0d55e47505d597a0ea0a97602f83bedb8c
 
 build:
   number: 0
