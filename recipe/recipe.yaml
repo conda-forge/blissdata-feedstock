@@ -34,7 +34,7 @@ requirements:
     - numpy >=1.20
     - numpydantic <1.6.10
     - pydantic >=2.9
-    - redis-py >=4.6.0
+    - redis-py >=5.0
     - redis-om >=1.0,<2
     - silx >=1.1.0
 
